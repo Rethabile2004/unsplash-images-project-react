@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import ThemeToggle from './ThemeToggle'
-import Gallary from './Gallary'
-import SearchForm from './SearchForm'
+import ThemeToggle from '../src/ThemeToggle'
+import Gallary from '../src/Gallary'
+import SearchForm from '../src/SearchForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,8 +9,8 @@ function App() {
   return (
     <main>
       <ThemeToggle/>
-      <Gallary/>
       <SearchForm/>
+      <Gallary/>
     </main>
   )
 }
